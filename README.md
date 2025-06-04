@@ -9,6 +9,7 @@
 
 ✅ 推理测试（执行 run_inference.py）
 ## 目录
+```
 gpt2-instruction-finetune/
 ├── scripts/
 │   ├── load_model.py           # 下载预训练模型到本地
@@ -22,6 +23,7 @@ gpt2-instruction-finetune/
 ├── data/                       # 指令数据集存储目录
 ├── saved_model/                # 微调后模型保存目录
 └── README.md
+```
 ## 示例数据格式（JSON）
 {
   "instruction": "请将下面这段话翻译成英文",
