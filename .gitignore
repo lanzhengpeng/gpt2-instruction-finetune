@@ -1,0 +1,11 @@
+# 忽略所有以 my 开头的文件（如 myscript.py、mydata.txt）
+my*
+
+# 忽略 modes 目录及其所有内容
+models/
+
+# 忽略 saved_model 目录及其所有内容
+saved_model/
+# 忽略数据集
+data/
+
